@@ -47,7 +47,7 @@ Redis:
 
 MailService:
   URL: "localhost:1025"
-  From: "alexander.bryksin@yandex.ru"
+  From: "nats-streaming@yandex.com"
   Host: "localhost"
   Port: 1025
   Username: ""

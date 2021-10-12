@@ -12,12 +12,12 @@ local:
 	docker-compose -f docker-compose.local.yaml up --build
 
 upload:
-	docker build -t alexanderbryksin/stan_microservice:latest -f ./Dockerfile .
-	docker push alexanderbryksin/stan_microservice:latest
+	docker build -t nats-streamingbryksin/stan_microservice:latest -f ./Dockerfile .
+	docker push nats-streamingbryksin/stan_microservice:latest
 	#APP_VERSION=latest docker-compose up
 
 pull:
-	docker pull alexanderbryksin/stan_microservice:latest
+	docker pull nats-streamingbryksin/stan_microservice:latest
 
 
 # ==============================================================================

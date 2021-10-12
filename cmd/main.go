@@ -19,7 +19,7 @@ import (
 // @description Email microservice
 // @termsOfService http://swagger.io/terms/
 
-// @contact.name Alexander Bryksin
+// @contact.name huylq
 // @contact.url https://github.com/huylq
 // @contact.email lequochuy9302gmail.com
 
